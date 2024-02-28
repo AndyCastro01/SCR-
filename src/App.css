@@ -1,11 +1,30 @@
 body {
-  background-color: blue;
+  background-color: #add8e6;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: #333; 
   font-family: Arial, sans-serif; 
 }
+
+.navbar-nav .nav-link {
+  text-decoration: none; /* Elimina la decoración de subrayado */
+}
+
+.nav-link-big {
+  font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.nav-link-big:hover {
+  font-size: 22px; /* Ajusta el tamaño del texto al pasar el cursor */
+}
+
+
+.navbar-logo {
+  width: 70px; /* Ajusta el tamaño del logo según sea necesario */
+  margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+}
+
 
 .content {
   padding: 50px; 

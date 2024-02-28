@@ -1,3 +1,32 @@
+body {
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333; 
+  font-family: Arial, sans-serif; 
+}
+
+.content {
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+
+
+
+
 .App {
   text-align: center;
 }

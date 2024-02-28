@@ -1,0 +1,11 @@
+.textoprincipal {
+    font-size: 23px;
+    line-height: 1.5;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-large:hover {
+    color: #007bff;
+  }
+  

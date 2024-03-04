@@ -1,12 +1,93 @@
 .textoprincipal {
-    font-size: 23px;
-    line-height: 1.5;
-    color: #333;
-    font-family: Arial, sans-serif;
-    text-align:justify;
-  }
-  
-  .text-large:hover {
-    color: #007bff;
-  }
-  
+  font-size: 23px;
+  line-height: 1.5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  text-align:justify;
+}
+
+.text-large:hover {
+  color: #007bff;
+}
+
+
+
+.benefits-container {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.benefits-container h2 {
+  font-size: 28px; /* Aumenta el tamaño de la fuente */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra */
+}
+
+.benefits-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefits-container li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px; /* Aumenta el espacio a la izquierda de los puntos */
+  font-size: 18px; /* Aumenta el tamaño de la fuente de los elementos de la lista */
+}
+
+.benefits-container li::before {
+  content: "\2022"; /* Utiliza el carácter Unicode para el símbolo de viñeta */
+  position: absolute;
+  left: 0;
+  color: #007bff; /* Cambia el color de la viñeta */
+}
+
+
+
+
+
+.text-container {
+  padding: 20px; /* Añade un espacio alrededor del texto */
+}
+
+
+.social-links {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icon {
+margin-bottom: 10px;
+border-radius: 50%;
+background-color: #333;
+padding: 15px; /* Aumenta el espacio alrededor del ícono */
+color: white;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease;
+font-size: 24px; /* Ajusta el tamaño del ícono */
+}
+
+.social-icon:hover {
+background-color: #555;
+}
+
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.instagram {
+  background-color: #c13584;
+}

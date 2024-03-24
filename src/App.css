@@ -1,10 +1,17 @@
 body {
-  background-color: #add8e6;
+  background-image: url("images/fondo.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #333; 
-  font-family: Arial, sans-serif; 
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 1000;
+  background-color: #333;
+  padding: 10px 20px;
 }
 
 .navbar-nav .nav-link {
@@ -19,32 +26,25 @@ body {
   font-size: 22px; /* Ajusta el tamaño del texto al pasar el cursor */
 }
 
-
 .navbar-logo {
   width: 70px; /* Ajusta el tamaño del logo según sea necesario */
   margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
 }
 
-
 .content {
-  padding: 50px; 
-  border-radius: 10px; 
+  padding: 50px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
 a {
-  color: #007bff; 
-  text-decoration: none; 
+  color: #007bff;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
-
-
-
-
 
 .App {
   text-align: center;

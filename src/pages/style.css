@@ -275,6 +275,30 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
+
+  .custom-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .custom-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .custom-col {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 15px; /* Ajusta el margen entre las columnas */
+  }
+
+  .custom-col:last-child {
+    margin-right: 0;
+  }
   .banner-text {
     font-size: 35px; /* Ajusta el tamaño del texto según sea necesario */
   }
@@ -311,4 +335,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .titulorenta{
   font-size: 130%;
+}
+
+.botonrentas {
+  font-size: 13px; 
+  padding: 9px 13px; 
 }

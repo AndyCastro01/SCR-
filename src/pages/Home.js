@@ -370,11 +370,11 @@ const Home = () => {
             <Nav.Link href="#nosotros">Nosotros</Nav.Link>
             <Nav.Link href="#cursos">Cursos</Nav.Link>
             <Nav.Link href="#rentayventa">Suministros</Nav.Link>
-            <Nav.Link href="#contacto">Servicios</Nav.Link>
-            <Nav.Link href="#beneficios">Contacto</Nav.Link>
+            <Nav.Link href="#servicios">Servicios</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> 
       <br id="inicio" /> <br />
       <br />
       <br />
@@ -1267,8 +1267,8 @@ const Home = () => {
           <div className="col-lg-3 col-md-6">
             <div className="text-center">
               <img
-                src="https://i.postimg.cc/Y9QwHdP6/La-balsa-salvavidas-removebg-preview.png"
-                style={{ maxWidth: "193px", height: "auto" }}
+                src="https://i.postimg.cc/hP98KNsW/images-1-removebg-preview-2.png"
+                style={{ maxWidth: "173px", height: "162px" }}
                 className="img-fluid rounded shadow imagen-cursos"
                 alt="imagen de balsas"
               />
@@ -1573,26 +1573,21 @@ const Home = () => {
               </div>
             )}
           </div>
-          
-            
-        
-              
-             
-             
-             
               <br />
               <br />
-           
-           
-       
-              
-                  
-                
-                 
-        
         </div>
 
 
+        <br />
+        <h6 id="servicios" className="paraid">
+          .
+        </h6>
+        <br />
+        <br />
+        <br />
+        <h2>
+          <p className="tnosotros">Servicios:</p>
+        </h2>
 
 
 
